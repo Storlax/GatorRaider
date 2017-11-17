@@ -8,6 +8,7 @@ import java.util.List;
 
 public final class StudentController implements DefenderController
 {
+	//Test comment
 	public void init(Game game) { }
 
 	public void shutdown(Game game) { }
