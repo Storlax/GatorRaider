@@ -39,12 +39,8 @@ public final class StudentController implements DefenderController
 		//The controller must use information from the attacker’s state, board state, and maze in making decisions.
 
 		//////////////////////////////RED GUY///////////////////////////////////
+
 		Defender blinky = enemies.get(0);
-        /////////////////////////////////////
-        /////////////////////////////////////
-        ///////////////BLINKY////////////////
-        /////////////////////////////////////
-        /////////////////////////////////////
 
         Node defenderLoc = blinky.getLocation();
         Node attackerLoc = attacker.getLocation();
@@ -63,14 +59,7 @@ public final class StudentController implements DefenderController
         Node xAttacker = attackerLoc.getNeighbor(x);
         Node yAttacker = attackerLoc.getNeighbor(y);
 
-        actions[0] = blinky.getNextDir(xAttacker, true);
-        actions[0] = blinky.getNextDir(yAttacker, true);
 
-        ////////////////////////////////////
-        ////////////////////////////////////
-        //////////////BLINKY////////////////
-        ////////////////////////////////////
-        ////////////////////////////////////
 
 		//////////////////////////////PINK GUY///////////////////////////////////
 		//Pink's normal attack = go to the node Pacman is heading towards, i.e. chase one step ahead of him
@@ -93,16 +82,21 @@ public final class StudentController implements DefenderController
 		//Get the list of power pills
 		List<Node> powerLocations = game.getPowerPillList();
 		defender = enemies.get(2);
+		boolean atPill = false;
 
 		for (int i = 0; i < powerLocations.size(); i++) {
 			if (game.checkPowerPill(powerLocations.get(i)) == true) {
 				actions[2] = defender.getNextDir(powerLocations.get(i), true);
 
 				//reverse direction , so it sits on it
-				actions[2] = defender.getNextDir(powerLocations.get(i), false);
+
+
+				int nextDirection = defender.getNextDir(powerLocations.get(i), atPill);
+				atPill = !atPill;
+
 
 				//Chase Pacman if he gets close, based off of a prediciton of where he's going
-				if(defender.getLocation().getPathDistance(attacker.getLocation()) < 10){
+				if(defender.getLocation().getPathDistance(attacker.getLocation()) < 40){
 					if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null){
 						Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
 						actions[1] = defender.getNextDir(prediction, true);
@@ -113,8 +107,53 @@ public final class StudentController implements DefenderController
 				}
 			}
 		}
+		if(powerLocations.size() == 0){
+			actions[2] = defender.getNextDir(attacker.getLocation(), true);
+		}
 
 
+
+		//////////////////////////////BLUE GUY///////////////////////////////////
+		defender = enemies.get(3);
+
+		//Determine if Pac man is close to a power pill, so blue can know to run away
+		boolean pacmanCloseToSuper = false;
+		int [] powerPills = new int[powerLocations.size()];
+		for (int i = 0; i < powerLocations.size(); i++) {
+			if (game.checkPowerPill(powerLocations.get(i)) == true) {
+				if(attacker.getLocation().getPathDistance(powerLocations.get(i)) < 10) {
+					pacmanCloseToSuper = true;
+					break;
+				}
+				else{
+					pacmanCloseToSuper = false;
+				}
+			}
+		}
+
+
+
+
+
+
+		//if ghosts are all in close proximity and not near Ms Pac-Man, disperse
+		//if(isCrowded && !closeToMsPacMan(game.getCurGhostLoc(i))) {
+		//	actions[i] = retreat to power pill locations
+		//}
+		if(defender.getVulnerableTime()>0 || pacmanCloseToSuper) {
+			//if edible or Ms Pac-Man is close to power pill, move away from Ms Pac-Man
+			actions[3] = defender.getNextDir(attacker.getLocation(), false);                //move away from ms pacman
+		}
+		else {
+			//Default behavior is go towards Pacman
+			if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null){
+				Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
+				actions[3] = defender.getNextDir(prediction, true);
+			}
+			else{
+				actions[3] = defender.getNextDir(attacker.getLocation(), true);
+			}
+		}
 
 
 
