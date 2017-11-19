@@ -37,8 +37,40 @@ public final class StudentController implements DefenderController
 
 
 		//The controller must use information from the attacker’s state, board state, and maze in making decisions.
+
 		//////////////////////////////RED GUY///////////////////////////////////
-		actions[0] = defender.getNextDir(attacker.getLocation(), true);
+		Defender blinky = enemies.get(0);
+        /////////////////////////////////////
+        /////////////////////////////////////
+        ///////////////BLINKY////////////////
+        /////////////////////////////////////
+        /////////////////////////////////////
+
+        Node defenderLoc = blinky.getLocation();
+        Node attackerLoc = attacker.getLocation();
+
+        //List<Node> powerPillList = this.getPowerPillList();
+
+        int currentDir = attacker.getDirection();
+
+        List<Node> lol = attacker.getPathTo(attackerLoc);
+
+        int location = defenderLoc.getPathDistance(attackerLoc);
+
+        int x = attackerLoc.getX();
+        int y = attackerLoc.getY();
+
+        Node xAttacker = attackerLoc.getNeighbor(x);
+        Node yAttacker = attackerLoc.getNeighbor(y);
+
+        actions[0] = blinky.getNextDir(xAttacker, true);
+        actions[0] = blinky.getNextDir(yAttacker, true);
+
+        ////////////////////////////////////
+        ////////////////////////////////////
+        //////////////BLINKY////////////////
+        ////////////////////////////////////
+        ////////////////////////////////////
 
 		//////////////////////////////PINK GUY///////////////////////////////////
 		//Pink's normal attack = go to the node Pacman is heading towards, i.e. chase one step ahead of him
