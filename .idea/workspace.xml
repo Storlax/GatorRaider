@@ -2,7 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93a5615-1996-447b-b12e-b95e14866fc7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-down-1.png" afterPath="$PROJECT_DIR$/exec/images/blinky-down-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-down-2.png" afterPath="$PROJECT_DIR$/exec/images/blinky-down-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-left-1.png" afterPath="$PROJECT_DIR$/exec/images/blinky-left-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-left-2.png" afterPath="$PROJECT_DIR$/exec/images/blinky-left-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-right-1.png" afterPath="$PROJECT_DIR$/exec/images/blinky-right-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-right-2.png" afterPath="$PROJECT_DIR$/exec/images/blinky-right-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-up-1.png" afterPath="$PROJECT_DIR$/exec/images/blinky-up-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/blinky-up-2.png" afterPath="$PROJECT_DIR$/exec/images/blinky-up-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/edible-ghost-1.png" afterPath="$PROJECT_DIR$/exec/images/edible-ghost-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/edible-ghost-2.png" afterPath="$PROJECT_DIR$/exec/images/edible-ghost-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/edible-ghost-blink-1.png" afterPath="$PROJECT_DIR$/exec/images/edible-ghost-blink-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/edible-ghost-blink-2.png" afterPath="$PROJECT_DIR$/exec/images/edible-ghost-blink-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-down-1.png" afterPath="$PROJECT_DIR$/exec/images/inky-down-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-down-2.png" afterPath="$PROJECT_DIR$/exec/images/inky-down-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-left-1.png" afterPath="$PROJECT_DIR$/exec/images/inky-left-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-left-2.png" afterPath="$PROJECT_DIR$/exec/images/inky-left-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-right-1.png" afterPath="$PROJECT_DIR$/exec/images/inky-right-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-right-2.png" afterPath="$PROJECT_DIR$/exec/images/inky-right-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-up-1.png" afterPath="$PROJECT_DIR$/exec/images/inky-up-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/inky-up-2.png" afterPath="$PROJECT_DIR$/exec/images/inky-up-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/maze-a.png" afterPath="$PROJECT_DIR$/exec/images/maze-a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/maze-b.png" afterPath="$PROJECT_DIR$/exec/images/maze-b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/maze-c.png" afterPath="$PROJECT_DIR$/exec/images/maze-c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/maze-d.png" afterPath="$PROJECT_DIR$/exec/images/maze-d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-down-closed.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-down-closed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-down-normal.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-down-normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-down-open.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-down-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-left-closed.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-left-closed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-left-normal.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-left-normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-left-open.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-left-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-right-closed.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-right-closed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-right-normal.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-right-normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-right-open.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-right-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-up-closed.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-up-closed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-up-normal.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-up-normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/mspacman-up-open.png" afterPath="$PROJECT_DIR$/exec/images/mspacman-up-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-down-1.png" afterPath="$PROJECT_DIR$/exec/images/pinky-down-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-down-2.png" afterPath="$PROJECT_DIR$/exec/images/pinky-down-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-left-1.png" afterPath="$PROJECT_DIR$/exec/images/pinky-left-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-left-2.png" afterPath="$PROJECT_DIR$/exec/images/pinky-left-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-right-1.png" afterPath="$PROJECT_DIR$/exec/images/pinky-right-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-right-2.png" afterPath="$PROJECT_DIR$/exec/images/pinky-right-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-up-1.png" afterPath="$PROJECT_DIR$/exec/images/pinky-up-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/pinky-up-2.png" afterPath="$PROJECT_DIR$/exec/images/pinky-up-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-down-1.png" afterPath="$PROJECT_DIR$/exec/images/sue-down-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-down-2.png" afterPath="$PROJECT_DIR$/exec/images/sue-down-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-left-1.png" afterPath="$PROJECT_DIR$/exec/images/sue-left-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-left-2.png" afterPath="$PROJECT_DIR$/exec/images/sue-left-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-right-1.png" afterPath="$PROJECT_DIR$/exec/images/sue-right-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-right-2.png" afterPath="$PROJECT_DIR$/exec/images/sue-right-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-up-1.png" afterPath="$PROJECT_DIR$/exec/images/sue-up-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/images/sue-up-2.png" afterPath="$PROJECT_DIR$/exec/images/sue-up-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pakupaku-benchmark.jar" afterPath="$PROJECT_DIR$/lib/pakupaku-benchmark.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PakuPaku.iml" afterPath="$PROJECT_DIR$/PakuPaku.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/Exec.java" afterPath="$PROJECT_DIR$/System/game/Exec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/controllers/AttackerController.java" afterPath="$PROJECT_DIR$/System/game/controllers/AttackerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/controllers/DefenderController.java" afterPath="$PROJECT_DIR$/System/game/controllers/DefenderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/controllers/Human.java" afterPath="$PROJECT_DIR$/System/game/controllers/Human.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Actor.java" afterPath="$PROJECT_DIR$/System/game/models/Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Attacker.java" afterPath="$PROJECT_DIR$/System/game/models/Attacker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Defender.java" afterPath="$PROJECT_DIR$/System/game/models/Defender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Game.java" afterPath="$PROJECT_DIR$/System/game/models/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Maze.java" afterPath="$PROJECT_DIR$/System/game/models/Maze.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/models/Node.java" afterPath="$PROJECT_DIR$/System/game/models/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/DuoMap.java" afterPath="$PROJECT_DIR$/System/game/system/DuoMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/Pair.java" afterPath="$PROJECT_DIR$/System/game/system/Pair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Actor.java" afterPath="$PROJECT_DIR$/System/game/system/_Actor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Attacker.java" afterPath="$PROJECT_DIR$/System/game/system/_Attacker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Defender.java" afterPath="$PROJECT_DIR$/System/game/system/_Defender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Game.java" afterPath="$PROJECT_DIR$/System/game/system/_Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Game_.java" afterPath="$PROJECT_DIR$/System/game/system/_Game_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Maze.java" afterPath="$PROJECT_DIR$/System/game/system/_Maze.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_Node.java" afterPath="$PROJECT_DIR$/System/game/system/_Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/system/_ReplayGame_.java" afterPath="$PROJECT_DIR$/System/game/system/_ReplayGame_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/view/GameView.java" afterPath="$PROJECT_DIR$/System/game/view/GameView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/game/view/Replay.java" afterPath="$PROJECT_DIR$/System/game/view/Replay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/a" afterPath="$PROJECT_DIR$/exec/data/a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/b" afterPath="$PROJECT_DIR$/exec/data/b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/c" afterPath="$PROJECT_DIR$/exec/data/c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/d" afterPath="$PROJECT_DIR$/exec/data/d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/da" afterPath="$PROJECT_DIR$/exec/data/da" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/db" afterPath="$PROJECT_DIR$/exec/data/db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/dc" afterPath="$PROJECT_DIR$/exec/data/dc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec/data/dd" afterPath="$PROJECT_DIR$/exec/data/dd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java" afterPath="$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java" />
     </list>
     <ignored path="Ms. Pac-Man.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +108,9 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="-720">
               <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,34 +271,25 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GatorRaiders" type="462c0819:PsiDirectoryNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GatorRaiders" type="462c0819:PsiDirectoryNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GatorRaiders" type="462c0819:PsiDirectoryNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GatorRaiders" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GatorRaiders" type="462c0819:PsiDirectoryNode" />
-              <item name="System" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
@@ -225,8 +300,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -776,8 +849,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.503367" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1860817" sideWeight="0.496633" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31770045" sideWeight="0.496633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1081,17 +1154,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3435">
           <caret line="239" column="37" lean-forward="false" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="-720">
           <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

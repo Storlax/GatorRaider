@@ -1,9 +1,9 @@
 package ufl.cs1.controllers;
 
 import game.controllers.DefenderController;
-import game.models.Attacker;
 import game.models.Defender;
 import game.models.Game;
+import game.models.Attacker;
 import game.models.Node;
 
 import java.util.List;
@@ -42,19 +42,19 @@ public final class StudentController implements DefenderController
 
 		Defender blinky = enemies.get(0);
 
-        Node defenderLoc = blinky.getLocation();
-        Node attackerLoc = attacker.getLocation();
-        Node devastatorNode = attackerLoc.getNeighbor(attacker.getDirection());
+		Node defenderLoc = blinky.getLocation();
+		Node attackerLoc = attacker.getLocation();
+		Node devastatorNode = attackerLoc.getNeighbor(attacker.getDirection());
 
-        int distanceFromDefenderToDevastator = defenderLoc.getPathDistance(attackerLoc);
+		int distanceFromDefenderToDevastator = defenderLoc.getPathDistance(attackerLoc);
 
-        if (distanceFromDefenderToDevastator < 50) {
-            if (devastatorNode != null) {
-                actions[0] = blinky.getNextDir(devastatorNode, true);
-            } else {
-                actions[0] = blinky.getNextDir(attackerLoc, false);
-            }
-        }
+		if (distanceFromDefenderToDevastator < 50) {
+			if (devastatorNode != null) {
+				actions[0] = blinky.getNextDir(devastatorNode, true);
+			} else {
+				actions[0] = blinky.getNextDir(attackerLoc, false);
+			}
+		}
 
 
 
@@ -127,9 +127,6 @@ public final class StudentController implements DefenderController
 				}
 			}
 		}
-
-
-
 
 
 

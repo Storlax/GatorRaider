@@ -60,7 +60,7 @@ public interface Game
 	int COMMON_LAIR_TIME = 40;						//time spend in lair after being eaten
 	float LAIR_REDUCTION = 0.9f;					//reduction factor by which lair times decrease as level number increases
 	int LEVEL_LIMIT = 3000;							//time limit for a level
-	int DELAY = 10;									//delay (in milliseconds) between game advancements
+	int DELAY = 40;									//delay (in milliseconds) between game advancements
 
 	// Initial Game State
 	int NUM_LIVES = 3;								//total number of lives the hero has (current + NUM_LIVES-1 spares)
