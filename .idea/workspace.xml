@@ -23,21 +23,21 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Devastator.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/pakupaku-benchmark.jar!/game/controllers/benchmark/Devastator.class">
+      <file leaf-file-name="_Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/game/system/_Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4809">
-              <caret line="239" column="37" lean-forward="false" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,9 +196,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +219,38 @@
             </path>
             <path>
               <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GatorRaider" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PakuPaku" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -226,7 +258,7 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,202 +289,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jeremiah Blanchard\IdeaProjects\Ms. Pac-Man\System\game" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PakuPaku.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/Exec.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/controllers/AttackerController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/controllers/DefenderController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/controllers/Human.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Actor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Attacker.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Defender.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Game.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Maze.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/models/Node.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/DuoMap.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/Pair.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Actor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Attacker.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Defender.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Game.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Game_.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Maze.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_Node.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/system/_ReplayGame_.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/view/GameView.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/System/game/view/Replay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/a</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/b</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/d</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/da</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/dc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/data/dd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-down-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-down-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-left-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-left-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-right-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-right-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-up-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/blinky-up-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/edible-ghost-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/edible-ghost-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/edible-ghost-blink-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/edible-ghost-blink-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-down-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-down-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-left-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-left-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-right-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-right-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-up-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/inky-up-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/maze-a.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/maze-b.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/maze-c.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/maze-d.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-down-closed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-down-normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-down-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-left-closed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-left-normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-left-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-right-closed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-right-normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-right-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-up-closed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-up-normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/mspacman-up-open.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-down-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-down-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-left-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-left-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-right-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-right-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-up-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/pinky-up-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-down-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-down-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-left-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-left-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-right-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-right-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-up-1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/exec/images/sue-up-2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lib/pakupaku-benchmark.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -968,65 +804,51 @@
       <option name="project" value="LOCAL" />
       <updated>1512005342013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cleaned up the code a bit">
+      <created>1512005590897</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512005590897</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131890000" />
+    <option name="totallyTimeSpent" value="129243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="2" y="23" width="1277" height="733" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33806565" sideWeight="0.43629086" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.503367" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9627193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15460527" sideWeight="0.496633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31770045" sideWeight="0.496633" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09947917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44780636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.503367" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44780636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33806565" sideWeight="0.43629086" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31770045" sideWeight="0.496633" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7102713" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1079,7 +901,8 @@
     <MESSAGE value="Added a shit ton of stuff" />
     <MESSAGE value="Updated with God-tier ghost and blanchard fixed some crashes" />
     <MESSAGE value="Added some stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some stuff" />
+    <MESSAGE value="Cleaned up the code a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up the code a bit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1290,9 +1113,8 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/pakupaku-benchmark.jar!/game/controllers/benchmark/Devastator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4809">
+        <state relative-caret-position="3435">
           <caret line="239" column="37" lean-forward="false" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,6 +1122,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,18 +1136,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/System/game/system/_Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ufl/cs1/controllers/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
