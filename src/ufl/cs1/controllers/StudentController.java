@@ -85,9 +85,7 @@ public final class StudentController implements DefenderController
 			if (game.checkPowerPill(powerLocations.get(i)) == true) {
 				actions[2] = defender.getNextDir(powerLocations.get(i), true);
 
-				//reverse direction , so it sits on it
-
-
+				//can't reverse direction, so it loops to guard the pill
 				int nextDirection = defender.getNextDir(powerLocations.get(i), atPill);
 				atPill = !atPill;
 
@@ -127,7 +125,6 @@ public final class StudentController implements DefenderController
 				}
 			}
 		}
-
 
 
 		//if ghosts are all in close proximity and not near Ms Pac-Man, disperse
