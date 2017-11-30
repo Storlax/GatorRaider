@@ -44,17 +44,31 @@ public final class StudentController implements DefenderController
 
 		Node defenderLoc = blinky.getLocation();
 		Node attackerLoc = attacker.getLocation();
+		Node attackerNode = defenderLoc.getNeighbor(blinky.getDirection());
 		Node devastatorNode = attackerLoc.getNeighbor(attacker.getDirection());
 
 		int distanceFromDefenderToDevastator = defenderLoc.getPathDistance(attackerLoc);
 
-		if (distanceFromDefenderToDevastator < 50) {
+		if (distanceFromDefenderToDevastator < 25) {
 			if (devastatorNode != null) {
 				actions[0] = blinky.getNextDir(devastatorNode, true);
 			} else {
 				actions[0] = blinky.getNextDir(attackerLoc, false);
 			}
 		}
+
+		boolean devastatorJunction = attackerLoc.isJunction();
+		Node devastatorNextMovePrediction = attacker.getLocation().getNeighbor(attacker.getDirection());
+
+
+		if (devastatorJunction == true && attacker.getLocation().getNeighbor(attacker.getDirection()) != null)
+		{
+			actions[0] = blinky.getNextDir(devastatorNextMovePrediction, true);
+		}
+
+
+
+
 
 
 
