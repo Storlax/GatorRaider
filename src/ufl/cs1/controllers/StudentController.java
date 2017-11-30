@@ -107,8 +107,7 @@ public final class StudentController implements DefenderController
 		}
 
 
-
-		//////////////////////////////BLUE GUY///////////////////////////////////
+		//////////////////////////////BLUE GUY A.K.A Jesus///////////////////////////////////
 		defender = enemies.get(3);
 
 		//Determine if Pac man is close to a power pill, so blue can know to run away
@@ -127,13 +126,10 @@ public final class StudentController implements DefenderController
 		}
 
 
-		//if ghosts are all in close proximity and not near Ms Pac-Man, disperse
-		//if(isCrowded && !closeToMsPacMan(game.getCurGhostLoc(i))) {
-		//	actions[i] = retreat to power pill locations
-		//}
+		//if pac man about to go god-mode, gtfo
 		if(defender.getVulnerableTime()>0 || pacmanCloseToSuper) {
 			//if edible or Ms Pac-Man is close to power pill, move away from Ms Pac-Man
-			actions[3] = defender.getNextDir(attacker.getLocation(), false);                //move away from ms pacman
+			actions[3] = defender.getNextDir(attacker.getLocation(), false);
 		}
 		else {
 			//Default behavior is go towards Pacman
