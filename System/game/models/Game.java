@@ -12,8 +12,9 @@
  * clearly documented. We welcome any comments and suggestions regarding the code.
  */
 package game.models;
-import java.util.Random;
 import java.util.List;
+import java.util.Random;
+//import game.system._Random;
 
 /*
  * This interface defines the contract between the game engine and the controllers. It provides all
@@ -40,7 +41,7 @@ public interface Game
 
 	Game copy();											// Returns an exact copy of the game (forward model)
 	Maze getCurMaze();										// Returns the current maze information
-	Random rng = new Random(0);						// Random number generator with fixed seed
+	Random rng = new Random(0);					// _Random number generator with fixed seed
 
 	int[] advanceGame(int attackerDir, int[] defenderDirs);	// Advances the game using the actions (directions) supplied; returns all directions played [Attacker, Enemy1, Enemy2, Enemy3, Enemy4]
 	boolean gameOver();										// Returns true if the hero has lost all her lives or if MAX_LEVELS has been reached
@@ -60,7 +61,7 @@ public interface Game
 	int COMMON_LAIR_TIME = 40;						//time spend in lair after being eaten
 	float LAIR_REDUCTION = 0.9f;					//reduction factor by which lair times decrease as level number increases
 	int LEVEL_LIMIT = 3000;							//time limit for a level
-	int DELAY = 20;									//delay (in milliseconds) between game advancements
+	int DELAY = 40;									//delay (in milliseconds) between game advancements
 
 	// Initial Game State
 	int NUM_LIVES = 3;								//total number of lives the hero has (current + NUM_LIVES-1 spares)

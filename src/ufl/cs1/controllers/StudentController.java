@@ -67,11 +67,6 @@ public final class StudentController implements DefenderController
 		}
 
 
-
-
-
-
-
 		//////////////////////////////PINK GUY///////////////////////////////////
 		//Pink's normal attack = go to the node Pacman is heading towards, i.e. chase one step ahead of him
 		defender = enemies.get(1);
