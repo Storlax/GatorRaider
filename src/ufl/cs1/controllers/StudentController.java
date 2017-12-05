@@ -100,7 +100,7 @@ public final class StudentController implements DefenderController
 
 
 				//Chase Pacman if he gets close, based off of a prediciton of where he's going
-				if(defender.getLocation().getPathDistance(attacker.getLocation()) < 40){
+				if(defender.getLocation().getPathDistance(attacker.getLocation()) < 25){
 					if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null){
 						Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
 						actions[1] = defender.getNextDir(prediction, true);
@@ -137,7 +137,6 @@ public final class StudentController implements DefenderController
 
 		//if pac man about to go god-mode, gtfo
 		if(defender.getVulnerableTime()>0 || pacmanCloseToSuper) {
-			//if edible or Ms Pac-Man is close to power pill, move away from Ms Pac-Man
 			actions[3] = defender.getNextDir(attacker.getLocation(), false);
 		}
 		else {
