@@ -6,6 +6,7 @@ import game.models.Game;
 import game.models.Attacker;
 import game.models.Node;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*
@@ -70,17 +71,28 @@ public final class StudentController implements DefenderController
 		//////////////////////////////PINK GUY///////////////////////////////////
 		//Pink's normal attack = go to the node Pacman is heading towards, i.e. chase one step ahead of him
 		defender = enemies.get(1);
-		if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null){
-			Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
-			actions[1] = defender.getNextDir(prediction, true);
-		}
-		else{
-			actions[1] = defender.getNextDir(attacker.getLocation(), true);
+
+		//Goes in front of Pacman if he is in the "goldilocks" zone (the optimal attack range)0
+		if(defender.getLocation().getPathDistance(attacker.getLocation()) >= 0 && defender.getLocation().getPathDistance(attacker.getLocation()) < 100)
+		{
+			if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null)
+			{
+				Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
+				actions[1] = defender.getNextDir(prediction, true);
+			}
+			else
+			{
+				actions[1] = defender.getNextDir(attacker.getLocation(), true);
+			}
 		}
 
 		//If edible, gtfo
-		if(defender.getVulnerableTime() > 0)
+		 if(defender.getVulnerableTime() > 0)
 			actions[1]= defender.getNextDir(attacker.getLocation(),false);
+
+
+
+
 
 		//////////////////////////////ORANGE GUY///////////////////////////////////
 		//Orange Normal attack = sit on an existing pill
@@ -90,7 +102,8 @@ public final class StudentController implements DefenderController
 		defender = enemies.get(2);
 		boolean atPill = false;
 
-		for (int i = 0; i < powerLocations.size(); i++) {
+		for (int i = 0; i < powerLocations.size(); i++)
+		{
 			if (game.checkPowerPill(powerLocations.get(i)) == true) {
 				actions[2] = defender.getNextDir(powerLocations.get(i), true);
 
@@ -103,10 +116,10 @@ public final class StudentController implements DefenderController
 				if(defender.getLocation().getPathDistance(attacker.getLocation()) < 25){
 					if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null){
 						Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
-						actions[1] = defender.getNextDir(prediction, true);
+						actions[2] = defender.getNextDir(prediction, true);
 					}
 					else{
-						actions[1] = defender.getNextDir(attacker.getLocation(), true);
+						actions[2] = defender.getNextDir(attacker.getLocation(), true);
 					}
 				}
 			}
