@@ -72,22 +72,44 @@ public final class StudentController implements DefenderController
 		//Pink's normal attack = go to the node Pacman is heading towards, i.e. chase one step ahead of him
 		defender = enemies.get(1);
 
+
 		//Goes in front of Pacman if he is in the "goldilocks" zone (the optimal attack range)0
-		if(defender.getLocation().getPathDistance(attacker.getLocation()) >= 0 && defender.getLocation().getPathDistance(attacker.getLocation()) < 100)
+		if(defender.getLocation().getPathDistance(attacker.getLocation()) < 100)
 		{
 			if (attacker.getLocation().getNeighbor(attacker.getDirection()) != null)
 			{
 				Node prediction = attacker.getLocation().getNeighbor(attacker.getDirection());
 				actions[1] = defender.getNextDir(prediction, true);
 			}
-			else
+			else //if Pinky cant get in front he will chase
 			{
 				actions[1] = defender.getNextDir(attacker.getLocation(), true);
 			}
 		}
 
+		/**
+		 * Something weird happens when the code below is active
+		 *
+		 * the goal of the code below is to prevent pinky from getting too close to Pac-Man when he is near a powerpill
+		 * with this code block active whenever pac-man gets near a power pill there is this supper weird glitch/lag
+		 *
+		 * however without this code pac-man goes to power pill pink follows him and breaks the glitch/lag
+		 *
+		 * Not sure if this is only on my PC but can you guys check it out
+		 * Try with and without the code block from lines 101-108. Test with Visual TestAgent
+		 * **/
+		//*************************************************************************************
+		List <Node> powerPill = game.getPowerPillList();
+		for(int i = 0; i < powerPill.size(); i++)
+		{
+			if(attackerLoc.getPathDistance(powerPill.get(i)) < 5)
+				actions[1]= defender.getNextDir(attacker.getLocation(),false);
+		}
+		//*************************************************************************************
+
+
 		//If edible, gtfo
-		 if(defender.getVulnerableTime() > 0)
+		if(defender.isVulnerable())
 			actions[1]= defender.getNextDir(attacker.getLocation(),false);
 
 
